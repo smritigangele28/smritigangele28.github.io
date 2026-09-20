@@ -179,7 +179,7 @@ a:hover {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(240px, 0.65fr);
   gap: 3rem;
-  align-items: end;
+  align-items: start;
 }
 
 h1 {
@@ -249,9 +249,8 @@ h1 em {
 
 .portrait-card img {
   width: 100%;
-  aspect-ratio: 4 / 5;
-  object-fit: cover;
-  object-position: center 18%;
+  height: auto;
+  object-fit: contain;
   border-radius: 1rem;
 }
 
